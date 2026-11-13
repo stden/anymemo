@@ -1,0 +1,11 @@
+[tools]
+java = "8"
+
+[tasks.check]
+run = "git diff --check"
+
+[tasks.build]
+run = "./gradlew build"
+
+[tasks.test]
+run = "./gradlew test"
